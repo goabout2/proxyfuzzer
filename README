@@ -1,0 +1,16 @@
+hello everyone:
+this is a proxy to get the information packet from one to other,and fuzzing the server with the these pecket.you can get some info as blow.
+++++++++++++++++++++++++++++++++++++++++++++++++proxy++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ "the args start a proxy"                                                                                          +     
++ "-p,the args to start a proxy on the 808 to get http flow"                                                        +
++ "-pf,the args is same as -p,but is can fuzzing the package when proxy capture a package at the same time"         +
+++++++++++++++++++++++++++++++++++++++++++++++++spider+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ "the args start a spider to crawl the url from a specirfy webstation"                                             +
++ "-s http://www.baidu.com crawl the url from http://www.baidu.com"                                                 +
++ "-s+s http://www.baidu.com crawl the url from http:/www.baudu.com and fuzzing with sqlinject module"              +
++ "-s+y http://www.baidu.com crawl the url from http:/www.baudu.com and fuzzing with yuanquan module"               +
++ "-s+x http://www.baidu.com crawl the url from http:/www.baudu.com and fuzzing with xss module"                    +
+++++++++++++++++++++++++++++++++++++++++++++++logfuzzing+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                + "the args read the package record by proxy and user these package to fuzzing"                                     +
++ "-l+s,read the logrecord and fuzzing with the sqlinject module"                                                   +
++ "-l+y,read the logrecord and fuzzing with the yuequan module"                                                     +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
